@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+* {
+  font-family: Outfit;
+}
+
+.lightHover {
+  background-color: #fcf4ff;
+}
+.darkHover:hover {
+  background-color: #2a004a;
+}
+.darkHover {
+  background-color: #2a004a;
+}
+
+.darkTheme {
+  color: #11001F;
+}
+
+.Outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+.Ovo {
+  font-family: "Ovo", serif;
+}
+.boxShadowBlack{
+  box-shadow: 4px 4px 0 #000;
+}
+.boxShadowWhite:hover{
+  box-shadow: 4px 4px 0 #fff;
+}
+.bg:hover{
+  background-color: #fcf4ff;
+  box-shadow: 4px 4px 0 #000;
+
+}
+.bgg:hover{
+  background-color: #fcf4ff;
+
+}
